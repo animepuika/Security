@@ -79,6 +79,10 @@ export default function Register() {
                         required
                     />
 
+                    <small className="form-text text-muted">
+                        Using a password manager is recommended to generate and store your password securely.
+                    </small>
+
                     <InputError message={errors.password} className="mt-2" />
                 </div>
 
